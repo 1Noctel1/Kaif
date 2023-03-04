@@ -9,19 +9,14 @@ if xz == 1:
         print(a1)
         bp = a1
         summa = a1
-        for i in range(a1):
+        for i in range(a1, an):
             bc = bp + d
             print(bc)
-            bd = bc + d
-            print(bd)
-            bt = bd + d
-            print(bt)
-            db = bt + d
-            print(db)
-            summa = bp + bc + bd + bt + db
-            print(f'Сумма ариф прогрессии - {summa}')
+            summa = summa + bc
+            bp = bc
+        print(f'Сумма ариф прогрессии - {summa}')
     elif yes == 2:
-        otvet = (2 * a1 + d * (an - 1))* an / 2
+        otvet = (2*a1 + d * (an - 1))*an/2
         print(f'Сумма ариф прогрессии = {otvet}')
 
 else:
