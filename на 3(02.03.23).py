@@ -21,7 +21,7 @@ if xz == 1:
             summa = bp + bc + bd + bt + db
             print(f'Сумма ариф прогрессии - {summa}')
     elif yes == 2:
-        otvet = (a1 + d * (an - 1))
+        otvet = (2 * a1 + d * (an - 1))* an / 2
         print(f'Сумма ариф прогрессии = {otvet}')
 
 else:
