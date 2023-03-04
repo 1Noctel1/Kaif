@@ -40,5 +40,5 @@ else:
             bp = bc
         print(f'Сумма геом прогрессии = {sum}')
     elif no == 2:
-        otvet = (t * q ** (bn - 1))
+        otvet = (t * (q ** bn - 1)) / q - 1
         print(f'Сумма геом прогрессии = {otvet}')
